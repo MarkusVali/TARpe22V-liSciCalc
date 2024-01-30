@@ -1,4 +1,4 @@
-﻿namespace TARpe22VäliSciCalc;
+namespace TARpe22VäliSciCalc;
 
 public static class MauiProgram
 {
@@ -9,8 +9,8 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+				fonts.AddFont("Cairo-Light.ttf", "RegularFont");
+				fonts.AddFont("Cairo-ExtraLight.ttf", "LightFont");
 			});
 
 		return builder.Build();
