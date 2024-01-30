@@ -2,5 +2,8 @@
 {
     internal class CalculatorPageViewModel
     {
+        [INotifyPropertyChanged]
+
+        internal partial class Calculator
     }
 }

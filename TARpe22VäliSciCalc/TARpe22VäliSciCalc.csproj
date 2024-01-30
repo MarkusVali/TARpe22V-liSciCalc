@@ -51,12 +51,17 @@
 
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.2" />
+	  <PackageReference Include="System.ObjectModel" Version="4.3.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\CalculatorPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Fonts\" />
 	</ItemGroup>
 
 </Project>
